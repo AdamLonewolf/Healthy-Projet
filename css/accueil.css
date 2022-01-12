@@ -210,9 +210,3 @@ li > a:hover
 
   /*Contenu textuel de la bannière*/
 
-  .content{
-      font-family: "Bebas";
-      color: white;
-      font-size: 20px;
-      order: 10000;
-  }
