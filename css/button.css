@@ -1,0 +1,65 @@
+/*Boutons principaux*/
+
+.button-join, .button-contact{
+    margin:0px 10px;
+    position: relative;
+    left: 70px;
+}
+
+.button
+{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: #262626;
+    color: #fff;
+    padding: 7px 15px;
+    font-family: "Poppins-Regular", sans-serif;
+    font-weight: 600;
+    transition: 0.8s ease;
+}
+
+.button-join:hover, .button-contact:hover{
+    color: #fff;
+    background-color: #FF6159;
+    padding: 7px 17px;
+}
+
+
+
+
+/*Bouton de  la Boutique*/
+
+.shopping-button{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #262626;
+    padding: 5px 25px;
+    position: relative;
+    right: 27%;
+    bottom: 10px;
+    width: 5px;
+    height: auto;
+    transition: 0.8s ease;
+}
+
+.shopping-button:hover{
+    background-color:#3d3d3d ;
+}
+
+.shopping-notif
+{
+    color: white;
+    position: absolute;
+    left: 87%;
+    bottom: 75%;
+    border: none;
+    background-color: #f03b31;
+    border-radius: 40px;
+    padding: 2px 7px;
+    font-size: 11px;
+    font-family: "Poppins-Regular";
+}
