@@ -4,10 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <script src="js/script.js"></script>
     <title>Healthy</title>
 </head>
 <body>
-    
+    <!--Header de la page (il contient la navbar et la bannière)//DEBUT-->
+   <header class="header">
+        <div class="container d-flex">
+            <img class="logo" src="medias/img/Healthylogonoir.png" alt="logo de Healthy">
+            <nav class="navbar">
+                <ul class="navlinks">
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="apropos.html">A Propos</a></li>
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li><a href="boutique.html">Programmes</a></li>
+                </ul>
+            </nav>
+              
+                <button class="button button-join">Nous rejoindre</button>
+                <button class="button button-contact">Contacts</button>
+
+               
+
+                <div class="shopping-button">
+                    <img class="cart" src="Assets/icones/cart.png" alt="bouton de shopping">
+                    <div class="shopping-notif">
+                        <span id="notif">0</span>
+                    </div>
+                    </div>
+        </div>
+    </header>    
+    <!--Header de la page//FIN-->
+
+    <!--Debut bannière slidante-->
+    <section class="banner-section">
+        <!--Slider d'images DEBUT-->
+            <div class="slider">
+                <div class="slides">
+                    <!--Boutons radio DEBUT-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+                    <!--Boutons radio FIN-->
+
+                    <!--images DEBUT-->
+                        <div class="slide first">
+                            <img class="sliders-1" src="medias/img/slider-one.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img class="sliders-2" src="medias/img/slider-two.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img class="sliders-3" src="medias/img/slider-three.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img class="sliders-4" src="medias/img/slider-four.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img class="sliders-5" src="medias/img/slider-final.jpg" alt="">
+                        </div>
+                    <!--images FIN-->
+
+                    <!--Navigation auto START-->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            <div class="auto-btn5"></div>
+                        </div>
+                    <!--Navigation auto FIN-->
+
+                     <!--Navigation Manuelle START-->
+                     <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label> 
+                    </div>
+                     <!--Navigation Manuelle FIN-->   
+                </div>
+            </div>
+        <!--Slider d'images FIN-->
+
+              <!--script bannière slidante-->
+              <script>
+                  var cptr = 1;
+                  setInterval(function(){
+                      document.getElementById("radio" + cptr ).checked =true;
+                      cptr ++;
+                      if(cptr > 5){
+                          cptr = 1;
+                      }
+                    },4000)
+              </script>
+              <!--script bannière slidante FIN-->
+    </section>
+    <!--Fin banière Slidante-->
+
+
 </body>
 </html>
