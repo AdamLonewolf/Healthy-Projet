@@ -16,13 +16,14 @@
     padding: 7px 15px;
     font-family: "Poppins-Regular", sans-serif;
     font-weight: 600;
-    transition: 0.8s ease;
+    transition: 0.6s ease;
+    
 }
 
 .button-join:hover, .button-contact:hover{
     color: #fff;
     background-color: #FF6159;
-    padding: 7px 17px;
+    padding: 7px 15px;
 }
 
 
