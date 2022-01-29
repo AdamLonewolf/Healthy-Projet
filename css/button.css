@@ -1,66 +1,39 @@
-/*Boutons principaux*/
 
-.button-join, .button-contact{
-    margin:0px 10px;
-    position: relative;
-    left: 70px;
+.button, .button-cart{
+    text-decoration: none;
 }
 
-.button
-{
-    cursor: pointer;
-    border: none;
-    border-radius: 20px;
+.button-cart{
+    border: 1px solid none;
     background-color: #262626;
-    color: #fff;
-    padding: 7px 15px;
-    font-family: "Poppins-Regular", sans-serif;
-    font-weight: 600;
-    transition: 0.6s ease;
-    
-}
-
-.button-join:hover, .button-contact:hover{
-    color: #fff;
-    background-color: #FF6159;
-    padding: 7px 15px;
-}
-
-
-
-
-/*Bouton de  la Boutique*/
-
-.shopping-button{
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    border: none;
     border-radius: 5px;
-    background-color: #262626;
-    padding: 5px 25px;
-    position: relative;
-    right: 27%;
-    bottom: 10px;
-    width: 5px;
-    height: auto;
-    transition: 0.8s ease;
+    padding: 4px 15px;
+    transition: 0.7s ease;
 }
 
-.shopping-button:hover{
-    background-color:#3d3d3d ;
-}
-
-.shopping-notif
-{
+.button-cart>i{
     color: white;
-    position: absolute;
-    left: 87%;
-    bottom: 75%;
-    border: none;
-    background-color: #f03b31;
-    border-radius: 40px;
-    padding: 2px 7px;
-    font-size: 11px;
-    font-family: "Poppins-Regular";
+}
+
+.button-cart:hover{
+    background-color: #ff6159;
+}
+
+.button{
+    border: 1px solid none;
+    border-radius: 30px;
+    background-color: #262626;
+    color: white;
+    padding: 5px 15px;
+    transition: 0.5s ease;
+}
+
+.button:hover{
+    background-color: #ff6159;
+    color: white;
+    padding: 5px 17px;
+}
+
+.mini-wrapper{
+    margin: 0px 10px;
 }
