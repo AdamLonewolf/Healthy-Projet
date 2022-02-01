@@ -10,10 +10,11 @@
     <title>Healthy</title>
 </head>
 <body>
+  <header>
     <!--Navbar de Healthy-->
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="cont container-md p-sm-3 p-md-3">
-        <a class="navbar-brand" href="#"><img src="../Healthy/medias/img/Healthylogonoir.png" alt="Logo de Healthy"></a>
+        <a class="navbar-brand" href="accueil.html"><img src="../Healthy/medias/img/Healthylogonoir.png" alt="Logo de Healthy"></a>
         <!--Navbar Toggler-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon d-flex align-items-center justify-content-center"><i class="bi bi-list" style="color: #fff; font-size: 1.5em;"></i></span>
@@ -46,7 +47,7 @@
               <a href="#" class="button-cart" role="button" type="button"><i class="bi bi-bag-fill"></i></a>
           </div>
           <div class="mini-wrapper">
-              <a href="" class="button" role="button" type="button">Nous Rejoindre</a>
+              <a href="#" class="button button-join" role="button" type="button">Nous Rejoindre</a>
           </div>
       </div>
       </div>
@@ -63,39 +64,36 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="medias/img/imgaccueil/slider-one.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="medias/img/imgaccueil/slider-one.jpg" class="d-block w-100 imgcarousel" alt="1er slider">
+              <div class="text-carousel carousel-caption d-none d-md-block">
+                <p class='textcontent'>
+                  Bienvenue sur <span class="textcolor">Healthy</span> ! Rejoignez nous des <span>maintenant !</span>
+                </p>  
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="medias/img/imgaccueil/slider-two.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="medias/img/imgaccueil/slider-two.jpg" class="d-block w-100 imgcarousel" alt="...">
+              <div class="text-carousel carousel-caption d-none d-md-block">
+                <p class='textcontent'>"Prends <span class="textcolor">soin</span> de ton corps"</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="medias/img/imgaccueil/slider-three.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="medias/img/imgaccueil/slider-three.jpg" class="d-block w-100 imgcarousel" alt="...">
+              <div class="text-carousel carousel-caption d-none d-md-block">
+                <p class='textcontent'><span class="textcolor">"Brises</span> tes limites"</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="medias/img/imgaccueil/slider-four.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="medias/img/imgaccueil/slider-four.jpg" class="d-block w-100  imgcarousel" alt="...">
+              <div class="text-carousel carousel-caption d-none d-md-block">
+                <p class='textcontent'><span class="textcolor">Rejoignez-nous</span> et beneficiez de 20% de reduction pour tous vos achats dans la boutique !</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="medias/img/imgaccueil/slider-final.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img  src="medias/img/imgaccueil/slider-final.jpg"class="d-block w-100 imgcarousel" alt="...">
+              <div class="text-carousel carousel-caption d-none d-md-block">
+                <p class='textcontent'>Tout le monde est dans giga de  <span class="textcolor">sport</span>, toi tu dors encore ? </p>
               </div>
             </div>
           </div>
@@ -108,12 +106,221 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-    
+        <!--Caroussel Healthy END-->
+      </header>
 
+      <main>
+        <!--Nos Services-->
+          <section class="services-section">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="section-title">
+                    <h2>Nos <span class="section-span">Services</span></h2>
+                  </div>
+                  <div class="sub-title">
+                    <h6>Découvrez le contenu que nous proposons sur le site</h6>
+                  </div>
+                </div>
+              </div>
 
+              <div class="row">
+                  <div class="col">
+                      <div class="bloc-wrapper">
+                          <div class="bloc-div">
+                            <div class="wrapper">
+                              <div class="bloc-icon">
+                                <i class="bi bi-cart-fill"></i>
+                              </div>
+                            </div>
+                              <div class="bloc-header">
+                                  <h3>De quoi acheter
+                                    des articles </h3>
+                              </div>
+                              <div class="bloc-text">
+                               <p>Dans notre <span class="bloc-textcolor">Boutique</span> , Vous trouvez une pluie d’articles pour 
+                                vous aider dans vos activités sportives. Ils vous seront distribués ensuite via livraison en toute sécurité.
+                              </p> 
+                              </div>
+                          </div>
 
+                          <div class="bloc-div">
+                            <div class="wrapper">
+                            <div class="bloc-icon">
+                              <i class="bi bi-file-person-fill"></i>
+                            </div>
+                            </div>
+                            <div class="bloc-header">
+                              <h3>Une team de 
+                                confiance </h3>
+                          </div>
+                          <div class="bloc-text">
+                            <p>Dans <span class="bloc-textcolor"> A propos</span> , Apprenez en plus sur notre team composée de membres compétents et très sérieux dans leur travail.
+                            </p>
+                          </div>
+                          </div>
 
+                          <div class="bloc-div">
+                            <div class="wrapper">
+                            <div class="bloc-icon">
+                                <i class="bi bi-card-checklist"></i>
+                              </div>
+                            </div>
+                            <div class="bloc-header">
+                              <h3>Le plein d’exercices
+                                pour vous </h3>
+                          </div>
+                            <div class="bloc-text">
+                              <p>Dans <span class="bloc-textcolor"> Programmes</span> , Vous disposerez d’exercices qui vous aideront à garder la forme.
+                              </p>
+                            </div>
+                          </div>
 
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <!--Nous rejoindre-Membership (section)-->
+
+          <section class="section-membership">
+              <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="section-title title-join">
+                        <h2>Nous <span class="section-span">Rejoindre</span></h2>
+                      </div>
+                      <div class="sub-title-join">
+                        <h6>Devenez un membre et bénéficiez rapidement des avantages !</h6>
+                      </div>    
+                    </div>
+                  </div>
+
+                  <!--Princing-Plan (Membership)-->
+                    <div class="row">
+                        <div class="join-wrapper">
+
+                          <div class="col-9 col-lg-4 col-md-7 cardstandard">
+                            <div class="card">
+                              <div class="card-header d-flex justify-content-center align-items-center">
+                                Standard
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Découvrez notre  formule  standard <br>et ses avantages.</h5>
+                                <div class="card-wrapper">
+                                  <i class="bi bi-check-circle"></i><p class="card-text">Accès à la salle de sport</p>
+                                </div>
+                                <div class="card-wrapper">
+                                  <i class="bi bi-check-circle"></i><p class="card-text">1 vêtement Healthy offert</p>
+                                </div>
+                                <div class="card-wrapper">
+                                  <i class="bi bi-check-circle"></i><p class="card-text"><span class="textcolor"> 10% de réduction</span> sur tous les articles de la boutique</p>
+                                </div>
+
+                              
+
+                                 <p class="price">15.000 FCFA (1 mois)</p>
+                                <div class="btn-card">
+                                <a href="#" class="btn btn-primary ">Payer Formule Standard</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-9 col-lg-4 col-md-7 cardpremium">
+                            <div class="card ">
+                              <div class="card-header d-flex justify-content-center align-items-center">
+                                Premium
+                              </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Découvrez notre formule premium <br>et ses avantages.</h5>
+                                <div class="card-wrapper">
+                                  <i class="bi bi-check-circle"></i><p class="card-text">Accès à la salle de sport</p>
+                                </div>
+                               
+                                <div class="card-wrapper">
+                                  <i class="bi bi-check-circle"></i><p class="card-text"><span class="textcolor"> 30% de réduction</span> sur tous les articles de la boutique</p>
+                                </div>
+                                <div class="card-wrapper">
+                                  <i class="bi bi-check-circle"></i><p class="card-text">Des événèments exclusifs</p>
+                                </div>
+
+                                 <p class="price">50.000 FCFA (3 mois)</p>
+                                <div class="btn-card">
+                                <a href="#" class="btn btn-primary ">Payer Formule Premium</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                         
+                        </div>
+                      </div>
+                    </div>
+
+            </div>
+
+          </section>
+            <!--Princing-Plan (Membership) END-->
+      </main>
+
+      <footer>
+        <!--Contacts-->
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="footer-title">
+                    <h2>Nos <span class="footer-span">Contacts</span></h2>
+                  </div>
+                </div>
+              </div>
+
+              <!--Contacts section-->
+
+              <div class="footer-wrapper">
+
+                <!--première rangée-->
+
+                  <div class="rangee-first">
+                    <div class="first-bloc">
+                      <h2 class="rangee-element rangee-color">Réseaux sociaux</h2>
+                      <div class="icons">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+                      </div>
+                  </div>
+                  <div class="second-bloc">
+                      <h2 class="rangee-element rangee-color">Heures d’ouverture/fermeture</h2>
+                      <div class="text-icon">
+                      <i class="bi bi-clock-fill"></i><p>08h00 à 18h30</p>
+                      </div>
+                  </div>
+                  </div>
+
+                  <!--seconde rangée-->
+
+                  <div class="rangee-second">
+                    <div class="first-bloc">
+                      <h2 class="rangee-element-number rangee-color">Numéro de téléphone</h2>
+                      <p class="number">Tel : 0708088690</p>
+                      <p class="number" >Tel : 0102026869</p>
+                  </div>
+                  <div class="second-bloc">
+                      <h2 class="rangee-element rangee-color">Localisation</h2>
+                      <div class="text-icon"><i class="bi bi-geo-alt-fill"></i><p class="localisation">Angré Deux Plateaux</p></div>
+                      
+                  </div>
+                  </div>
+              </div>
+
+                <!--copyright-->
+                <div class="copyright">
+                <p>© 1996 Healthy. Tous Droits Réservés.</p>
+                </div>
+                <!--copyright and footer END-->
+            </div>
+      </footer>
 
 
 

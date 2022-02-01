@@ -9,6 +9,10 @@
     font-family:'Bebas' ;
     src: url('../css/fonts/bebas/Bebas-Regular.otf');
 }
+@font-face {
+    font-family:'Rough-motion' ;
+    src: url('../css/fonts/rough-motion/Rough\ Motion\ Script.otf');
+}
 
 
 body{
@@ -17,8 +21,12 @@ body{
     box-sizing: border-box;
     background-color: #262626;
     font-family: 'Poppins-Regular';
+    
 }
 
+ h2, h1, h3, h4, h5, h6{
+    color: #fff;
+}
 
 .navlinks{
     text-decoration: none;
@@ -56,11 +64,303 @@ body{
     align-items: center;
 }
 
-@media screen and (max-width: 992px) {
+.textcontent{
+    font-family: 'Bebas';
+    font-size: 40px;
+}
+
+.textcolor{
+    color: #ff6159;
+    font-weight: 700;
+}
+
+/*section services*/
+
+    .section-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .section-title h2{
+        font-family: "Bebas";
+        color: #fff;
+    }
+
+    .section-span{
+
+        color: #ff6159;
+
+    }
+
+    .sub-title,.sub-title-join{
+        margin-top:15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bloc-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bloc-div{
+        width: 300px;
+        height: 300px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 0px 20px;
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: 0.6s ease;
+    }
+
+    .bloc-div:hover{
+        background-color: #ff6159;
+    }
+
+    .bloc-div:hover .bloc-header h3{
+        color: #fff;
+    }
+
+    .bloc-div:hover .bloc-icon{
+        background-color: #fff;
+    }
+    .bloc-div:hover .bloc-icon i{
+        color: #262626;
+    }
+    .bloc-div:hover .bloc-textcolor{
+        color: #262626;
+    }
+
+    .bloc-div:hover .bloc-text p{
+        color: #fff;
+    }
+
+    .bloc-icon{
+        background: #262626;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bloc-textcolor{
+        color: #ff6159;
+        font-weight: 700;
+    }
+
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bloc-icon i{
+        color: #fff;
+        font-size: 35px;
+    }
+
+    .bloc-header h3{
+        color: #ff6159;
+        font-size: 20px;
+        font-family: "Bebas";
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .bloc-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .bloc-text p{
+        color: #262626;
+    }
+
+    /* Section membership*/
+
+
+    .join-wrapper
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    .card-text{
+        color: #262626;
+    }
+
+    .card-wrapper{
+        display: flex;
+        justify-content: start;
+        margin: 15px 10px;
+    }
+    .card-wrapper i{
+        color: rgb(17, 160, 17);
+        margin-right: 10px;
+    }
+
+    .card-header{
+        color: #ff6159;
+    }
+
+    .btn-card{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+    }
+
+    .btn-primary{
+        background-color: #262626;
+        border: none;
+    } 
+    .btn-primary:hover{
+        background-color: #ff6159;
+    } 
+
+    .price{
+        text-align: center;
+        font-size: 30px;
+        color: #262626;
+        font-weight: 700;
+        margin: 30px 0px;
+    }
+
+    .card-title{
+        color: #262626;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+
+
+    .btn-card{
+        margin:20px 0px
+    }
+
+
+    .cardstandard{
+        margin-right: 15px;
+    }
+
+
+    /*Footer*/
+
+    footer{
+        background-color: #fff;
+
+    }
+
+    .footer-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .footer-title h2{
+        font-family: "Bebas";
+        color: #262626;
+    }
+
+
+    .footer-span{
+        color: #ff6159;
+    }
+
+    .rangee-color{
+        font-family: 'Poppins-Regular';
+        color: #ff6159;
+        font-size: 20px;
+    }
+
+
+
+    .footer-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .rangee-first, .rangee-second{
+        margin: 30px 40px;
+    }
+
+    .rangee-second{
+        padding-top: 20px;
+    }
+
+    .icons i{
+        font-size: 30px;
+        padding:0px 10px;
+        transition: 0.5s ease;
+    }
+
+    .icons{
+        display: flex;
+        cursor:pointer;
+    }
+
+    .icons i:hover{
+        font-size:31px ;
+    }
+
+    .rangee-element{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .text-icon{
+        display: flex;
+    }
+    .text-icon p{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .text-icon i{
+        font-size: 20px;
+    }
+        
+    .number{
+        font-size: 20px;
+        margin-bottom:0;
+    }
+
+    .localisation{
+        font-size: 18px;
+    }
+
+    .copyright{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+
+
+/*media queries header*/
+
+@media screen and (max-width: 992px){
     .wrapper{
         display: none;
     }
 }
+
 @media screen and (max-width: 982px) {
     .navbar-nav{
         margin: 0;
@@ -89,4 +389,149 @@ body{
 }
 
 
+/*media queries services/Nous-rejoindre*/
 
+@media screen and (max-width: 992px) {
+    .bloc-icon{
+        background: #262626;
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bloc-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .bloc-text p{
+        color: #262626;
+        font-size: 14px;
+    }
+
+    .bloc-icon i{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 978px){
+    .bloc-icon{
+        background: #262626;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .bloc-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloc-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .bloc-text p{
+        color: #262626;
+    }
+
+    .bloc-div{
+        margin: 20px 0px;
+        height: 200px;
+    }
+    .sub-title h6{
+        font-size: 14px;
+    }
+    .sub-title-join h6{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .sub-title-join h6{
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width: 392px){
+
+    .sub-title h6{
+        font-size: 12px;
+    }
+    .sub-title-join h6{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 325px){
+    .sub-title h6{
+        font-size: 10px;
+    }
+    .sub-title-join h6{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 845px){
+   
+    .join-wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cardstandard{
+        margin-bottom: 40px;
+        margin-right: 0zpx;
+    }
+
+}
+
+
+/*media queries footer*/
+
+@media screen and (max-width: 767px){
+    .footer-wrapper{
+        flex-direction: column;
+        
+    }
+    .rangee-first, .rangee-second{
+        margin: 20px 0px;
+    }
+    .rangee-second{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .rangee-element,.rangee-element-number{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .number{
+        text-align: center;
+    }
+
+    .text-icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    .icons{
+        display: flex;
+        justify-content: center;
+    }
+}
