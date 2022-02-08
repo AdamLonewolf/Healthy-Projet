@@ -1,0 +1,483 @@
+@import 'button.css';
+
+
+@font-face {
+    font-family:'Poppins-Regular' ;
+    src: url('../css/fonts/poppins/Poppins-Regular.otf');
+}
+@font-face {
+    font-family:'Bebas' ;
+    src: url('../css/fonts/bebas/Bebas-Regular.otf');
+}
+@font-face {
+    font-family:'Rough-motion' ;
+    src: url('../css/fonts/rough-motion/Rough\ Motion\ Script.otf');
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #262626;
+    font-family: 'Poppins-Regular';
+}
+
+
+
+.navlinks{
+    text-decoration: none;
+    color: #262626;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.nav-item{
+    padding: 0px 10px;
+}
+
+.navbar-nav{
+    margin-left: 40px;
+}
+
+.navlinks:hover{
+    text-decoration: none;
+    color: #ff6159;
+}
+
+.navbar-toggler{
+    background-color: #262626;
+    
+}
+ 
+.nav-add{
+    display: none;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textcontent{
+    font-family: 'Bebas';
+    font-size: 40px;
+}
+
+.textcolor{
+    color: #ff6159;
+    font-weight: 700;
+}
+
+.span-color{
+    color: #ff6159;
+}
+/*Banner*/
+
+
+.banner-area{
+    background-image: url("../../../Healthy/medias/img/imgboutique/banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-area h2{
+    font-family: 'Bebas';
+    font-weight: 700;
+    font-size:80px;
+    margin-top: 15%;
+}
+
+.title-banner{
+    color: #fff;
+}
+
+
+/*catégories*/
+
+.category{
+    text-align: center;
+    font-family: 'Bebas';
+    color: #fff;
+    margin: 20px 0px;
+    font-size: 35px;
+}
+
+.category-subtitle{
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.category-icons{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icons-div{
+    margin: 40px 80px;  
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.icons-div:hover{
+    background-color: #fff;
+    border: none;
+    transform: translateY(-10px);
+    transition: transform .3s;
+}
+
+.icons-div:hover i{
+    color: #262626;
+}
+
+.shop-section{
+    background-color: #262626;
+}
+
+
+
+.icons-div i{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+/*Hr*/
+
+hr{
+    border: 2px solid #fff;
+    opacity: 0.8;
+
+}
+
+/*Vêtements*/
+
+
+.vetements-category{
+    text-align: center;
+    font-family: 'Bebas';
+    color: #fff;
+    margin: 40px 0px;
+    font-size: 35px;
+}
+
+/*Chaussures*/
+ 
+.chaussures-category{
+    text-align: center;
+    font-family: 'Bebas';
+    color: #fff;
+    margin-top: 80px;
+    font-size: 35px;
+}
+
+/*Matériels & accessoires*/
+
+.materiel-category{
+    text-align: center;
+    font-family: 'Bebas';
+    color: #fff;
+    margin-top: 80px;
+    font-size: 35px;
+}
+
+/*Cards (Global)*/
+
+.card{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+
+.text1{
+    font-size: 14px;
+    color:#262626;
+    opacity: 0.7;
+}
+
+.info{
+    line-height: 17px;
+}
+
+.star{
+    color: #fbc02d;
+    cursor: pointer;
+}
+
+.star:hover{
+    opacity: .8;
+}
+
+.cost span{
+    color: #ff6159;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.t-shirt, .material, .shoe{
+    background: #ff6159;
+}
+
+
+/*Style (global) des cartes*/
+
+.t-shirt:hover, .material:hover, .shoe:hover{
+    background: #f86c65;
+}
+
+.cursor{
+    cursor: pointer;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: #fff;
+
+}
+
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-title h2{
+    font-family: "Bebas";
+    color: #262626;
+}
+
+
+.footer-span{
+    color: #ff6159;
+}
+
+.rangee-color{
+    font-family: 'Poppins-Regular';
+    color: #ff6159;
+    font-size: 20px;
+}
+
+
+
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.rangee-first, .rangee-second{
+    margin: 30px 40px;
+}
+
+.rangee-second{
+    padding-top: 20px;
+}
+
+.icons i{
+    font-size: 30px;
+    padding:0px 10px;
+}
+
+.icons{
+    display: flex;
+    cursor:pointer;
+}
+
+
+.rangee-element{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text-icon{
+    display: flex;
+}
+.text-icon p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.text-icon i{
+    font-size: 20px;
+}
+    
+.number{
+    font-size: 20px;
+    margin-bottom:0;
+}
+
+.localisation{
+    font-size: 18px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+
+
+
+/*Media queries Header*/
+
+@media screen and (max-width: 992px){
+    .wrapper{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 982px) {
+    .navbar-nav{
+        margin: 0;
+    }
+    .nav-add{
+        display: block;
+    }
+    .nav-item{
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #262626;
+    }
+}
+@media screen and (max-width: 978px) {
+    .navbar-nav{
+        margin: 0;
+    }
+    .nav-add{
+        display: block;
+    }
+    .nav-item{
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #262626;
+    }
+}
+
+/*Media queries banner*/
+
+
+@media screen and (max-width: 989px)
+{
+    
+.banner-area{
+    background-image: url("../../../Healthy/medias/img/imgboutique/banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+}
+@media screen and (max-width: 774px)
+{ 
+    .banner-area{
+    display: none;
+    }
+}
+
+
+
+/*Media Queries Category icons*/
+
+
+@media screen and (max-width: 767px){
+    .icons-div{
+        margin: 40px 30px;  
+        border: 2px solid #fff;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.7s ease;
+        
+    }
+}
+@media screen and (max-width: 380px){
+    .icons-div{
+        margin: 40px 15px;  
+        border: 2px solid #fff;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.7s ease;
+        
+    }
+}
+
+
+/*media queries footer*/
+
+@media screen and (max-width: 767px){
+    .footer-wrapper{
+        flex-direction: column;
+        
+    }
+    .rangee-first, .rangee-second{
+        margin: 20px 0px;
+    }
+    .rangee-second{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .rangee-element,.rangee-element-number{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .number{
+        text-align: center;
+    }
+
+    .text-icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    .icons{
+        display: flex;
+        justify-content: center;
+    }
+}
