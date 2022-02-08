@@ -309,7 +309,6 @@ body{
     .icons i{
         font-size: 30px;
         padding:0px 10px;
-        transition: 0.5s ease;
     }
 
     .icons{
@@ -317,9 +316,6 @@ body{
         cursor:pointer;
     }
 
-    .icons i:hover{
-        font-size:31px ;
-    }
 
     .rangee-element{
         margin-bottom: 20px;
