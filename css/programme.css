@@ -1,1 +1,364 @@
+@import 'button.css';
+
+
+@font-face {
+    font-family:'Poppins-Regular' ;
+    src: url('../css/fonts/poppins/Poppins-Regular.otf');
+}
+@font-face {
+    font-family:'Bebas' ;
+    src: url('../css/fonts/bebas/Bebas-Regular.otf');
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #262626;
+    font-family: 'Poppins-Regular';
+}
+
+/*Début Css de la navigation */ 
+.navlinks{
+    text-decoration: none;
+    color: #262626;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.nav-item{
+    padding: 0px 10px;
+}
+
+.navbar-nav{
+    margin-left: 40px;
+}
+
+.navlinks:hover{
+    text-decoration: none;
+    color: #ff6159;
+}
+
+.navbar-toggler{
+    background-color: #262626;
+    
+}
+ 
+.nav-add{
+    display: none;
+}
+
+/*Fin Css de la navigation */ 
+
+/* Début du centre de la page */ 
+.lecentrepartie1{
+    color: #000;
+}
+h1 , h5{
+    color: #fff;
+    font-family: 'bebas';
+}
+h4 {
+    color: #fff;
+}
+
+.programmes , .exercices {
+    color:  #ff6159;
+}
+
+.Lesexercices {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    
+}
+.yoga:hover{
+    background-color: #ff6159;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.gymnastique:hover {
+    background-color: #ff6159;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.cardio:hover {
+    background-color: #ff6159;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.yoga {
+    background-color: #fff;
+    border-radius: 25px;
+   
+}
+.gymnastique {
+    background-color: #fff;
+    border-radius: 25px;
+  
+}
+.cardio {
+    background-color: #fff;
+    border-radius: 25px;
+  
+}
+
+i {
+    font-size: 2em;
+    border-color: yellow;
+    border-radius: 25%;
+}
+
+
+/* Fin du centre de la page */  
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section-title h2{
+    font-family: "Bebas";
+    color: #fff;
+}
+
+.section-span{
+
+    color: #ff6159;
+
+}
+
+.sub-title{
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bloc-div{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0px 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.bloc-div:hover{
+    background-color: #ff6159;
+}
+
+.bloc-div:hover .bloc-header h3{
+    color: #fff;
+}
+
+.bloc-div:hover .bloc-icon{
+    background-color: #fff;
+}
+.bloc-div:hover .bloc-icon i{
+    color: #262626;
+}
+.bloc-div:hover .bloc-textcolor{
+    color: #262626;
+}
+
+.bloc-div:hover .bloc-text p{
+    color: #fff;
+}
+
+.bloc-icon{
+    background: #262626;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-textcolor{
+    color: #ff6159;
+    font-weight: 700;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-icon i{
+    color: #fff;
+    font-size: 35px;
+}
+
+.bloc-header h3{
+    color: #ff6159;
+    font-size: 20px;
+    font-family: "Bebas";
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bloc-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bloc-text p{
+    color: #262626;
+}
+
+
+
+footer{
+    background-color: #fff;
+
+}
+
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-title h2{
+    font-family: "Bebas";
+    color: #262626;
+}
+
+
+.footer-span{
+    color: #ff6159;
+}
+
+.rangee-color{
+    font-family: 'Poppins-Regular';
+    color: #ff6159;
+    font-size: 20px;
+}
+
+
+
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.rangee-first, .rangee-second{
+    margin: 30px 40px;
+}
+
+.rangee-second{
+    padding-top: 20px;
+}
+
+.icons i{
+    font-size: 30px;
+    padding:0px 10px;
+}
+
+.icons{
+    display: flex;
+    cursor:pointer;
+}
+
+
+.rangee-element{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text-icon{
+    display: flex;
+}
+.text-icon p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.text-icon i{
+    font-size: 20px;
+}
+    
+.number{
+    font-size: 20px;
+    margin-bottom:0;
+}
+
+.localisation{
+    font-size: 18px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .wrapper{
+        display: none;
+    }
+}
+@media screen and (max-width: 982px) {
+    .navbar-nav{
+        margin: 0;
+    }
+    .nav-add{
+        display: block;
+    }
+    .nav-item{
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #262626;
+    }
+}
+@media screen and (max-width: 978px) {
+    .navbar-nav{
+        margin: 0;
+    }
+    .nav-add{
+        display: block;
+    }
+    .nav-item{
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #262626;
+    }
+}
+
+
 
